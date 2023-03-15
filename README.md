@@ -67,6 +67,29 @@ Because cat displays text without pausing, its output may quickly scroll off you
 
 ## cd
 
+This command changes your current directory location. By default, your Unix login session begins in your home directory.
+
+To switch to a subdirectory (of the current directory) named myfiles, enter:
+
+`cd myfiles`
+
+To switch to a directory named **/home/dvader/empire_docs**, enter:
+
+
+`cd /home/dvader/empire_docs`
+
+To move to the parent directory of the current directory, enter:
+
+`cd ..`
+
+To move to the root directory, enter:
+
+`cd /`
+
+To return to your home directory, enter:
+
+`cd`
+
 ## chmod
 
 ## cp
