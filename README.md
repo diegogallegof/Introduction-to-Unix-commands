@@ -76,7 +76,9 @@ To switch to a subdirectory (of the current directory) named myfiles, enter:
 To switch to a directory named **/home/dvader/empire_docs**, enter:
 
 
-`cd /home/dvader/empire_docs`
+``` 
+cd /home/dvader/empire_docs 
+```
 
 To move to the parent directory of the current directory, enter:
 
