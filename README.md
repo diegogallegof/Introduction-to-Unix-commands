@@ -37,7 +37,33 @@ On this page:
 
 ## cal
 
+This command will print a calendar for a specified month and/or year.
+
+To show this month's calendar, enter:
+
+`cal`
+
+To show a twelve-month calendar for 2008, enter:
+
+`cal 2008`
+
+To show a calendar for just the month of June 1970, enter:
+
+`cal 6 1970`
+
 ## cat
+
+This command outputs the contents of a text file. You can use it to read brief files or to concatenate files together.
+
+To append file1 onto the end of file2, enter:
+
+`cat file1 >> file2`
+
+To view the contents of a file named myfile, enter:
+
+`cat myfile`
+
+Because cat displays text without pausing, its output may quickly scroll off your screen. Use the [less](#less-and-more) command (described below) or an editor for reading longer text files.
 
 ## cd
 
