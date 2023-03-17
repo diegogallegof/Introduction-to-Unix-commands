@@ -92,6 +92,21 @@ To return to your home directory, enter:
 
 ## chmod
 
+This command changes the permission information associated with a file. Every file (including directories, which Unix treats as files) on a Unix system is stored with records indicating who has permission to read, write, or execute the file, abbreviated as r, w, and x. These permissions are broken down for three categories of user: first, the owner of the file; second, a [group](#group) with which both the user and the file may be associated; and third, all other users. These categories are abbreviated as u for owner (or user), g for group, and o for other.
+
+To allow yourself to execute a file that you own named `myfile`, enter:
+
+`chmod u+x myfile`
+
+To allow anyone who has access to the directory in which `myfile` is stored to read or execute `myfile`, enter:
+
+`chmod o+rx myfile`
+
+You can view the permission settings of a file using the ls command, described below.
+
+* **Note:**
+Be careful with the `chmod` command. If you tamper with the directory permissions of your home directory, for example, you could lock yourself out or allow others unrestricted access to your account and its contents.
+
 ## cp
 
 ## date
